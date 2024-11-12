@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Downloads/Orbitron,Tajawal,Thasadith,Tilt_Prism/Orbitron/static"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Space Exploration Site"
+	}
+}
