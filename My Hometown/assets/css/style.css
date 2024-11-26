@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
     padding: 10px;
     font-size: .9em;
@@ -23,6 +22,7 @@ h1 {
      "a a a a a a"
      "c c c c c c"
      "t t t t t t"
+     "p p p p p p"
      "f f f f f f"
     ;
 }
@@ -30,7 +30,7 @@ h1 {
     grid-area: h;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    background-image: url(../images/hero.jpg);
+    background-image: url(../images/hero1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -89,12 +89,15 @@ h1 {
     background-color: rgb(151, 212, 230);
     margin-bottom: 30px;
 }
-
+.card-img {
+    width: 200px;
+}
 .tour-section {
     grid-area: t;
     background-color: gainsboro;
     height: 300px;
     margin-top: 90px;
+    margin-bottom: 20px;
 }
 .tour-text {
     display: flex;
@@ -118,15 +121,28 @@ h1 {
     background-color: bisque;
 }
 .tour-img {
-    width: 200px;
+    max-width: 200px;
+}
+.places-section {
+    grid-area: p;
+    background-color: beige;
+    height: 140px;
+    text-align: center;
+    padding: 20px;
+}
+.placebtn {
+    border: 2px solid grey;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: rgb(248, 217, 177);
 }
 .footer-section {
     grid-area: f;
     background-color: darkgrey;
     margin-top: 30px;
     border-bottom-left-radius: 6px;
-    border-bottom-right-radius: ;
+    border-bottom-right-radius: 6px;
 }
-.footer-content p{
+.footer-content{
     text-align: center;
 }
